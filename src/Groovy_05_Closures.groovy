@@ -17,3 +17,4 @@ composition(closure2, "hi")
 
 println "${closure(1, 2, 3)}"
 println "${closure.class}"
+println "${closure.getClass()}"
