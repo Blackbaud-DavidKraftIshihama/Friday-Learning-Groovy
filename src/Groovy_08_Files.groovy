@@ -8,13 +8,14 @@ def test = new File(".")
 test.eachFile({a -> println a})
 assert test.isDirectory()
 
-def test2 = new File("./Groovy_08_Files.groovy")
+def test2 = new File("Groovy_08_Files.groovy")
 assert test2.exists()
 test2.eachLine({a -> println a})
 println test2.getPath()
+println test2.getAbsolutePath()
 println test2.getText()
 
-def test3 = new File("./notexists")
+def test3 = new File("notexists")
 assert test3.exists() == false
 
 test3.createNewFile()
