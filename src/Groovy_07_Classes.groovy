@@ -11,8 +11,10 @@ class Account {
 }
 
 def test = new Account(number: 5)
-println test.number
+println test.getClass()
+println test.class
 println test.getNumber()
+println test.number
 test.setNumber(6)
 println test.number
 test.number = 7

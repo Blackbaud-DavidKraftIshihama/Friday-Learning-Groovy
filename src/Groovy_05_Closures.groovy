@@ -1,8 +1,7 @@
 def closure = {a, b, c -> a + b + c}
 println closure(1, 2, 3)
 println closure.call(1, 2, 3)
-println closure.getMetaClass()
-println closure.class
+println closure.getClass()
 
 def closure2 = {String a -> println a}
 //closure2(new Object())
@@ -17,7 +16,6 @@ def composition = {a, b -> a(b)}
 composition(closure2, "hi")
 
 println "${closure(1, 2, 3)}"
-println "${closure.class}"
 println "${closure.getClass()}"
 
 

@@ -37,6 +37,7 @@ def map2 = [a        : 5,
         ( method() ) : method() ]
 println map2
 println map2[20]
+println map2.b
 
 //BEWARE when interacting with Java generics:
 ArrayList<Integer> intList = ["27", new Object(), 56.788]
