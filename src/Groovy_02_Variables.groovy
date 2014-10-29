@@ -12,6 +12,7 @@ println a.div(b)  // 1
 
 Integer c1 = new Integer(7)
 Integer c2 = new Integer(7)
+//Integer c3 = new Object()
 
 println c1 == c2 // true
 println c1.is(c2)
