@@ -14,6 +14,7 @@ Integer c1 = new Integer(7)
 Integer c2 = new Integer(7)
 
 println c1 == c2 // true
+println c1.is(c2)
 // Because c1 == c2 is equivalent to c1.equals(c2)
 
 def age = 25
