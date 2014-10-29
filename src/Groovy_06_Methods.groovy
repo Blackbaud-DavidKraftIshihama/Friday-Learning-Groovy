@@ -17,6 +17,8 @@ def defaultParams(a, b=2, c=3) {
 }
 
 println defaultParams(1)
+println "${defaultParams(100)}"
+//println defaultParams
 
 def variableName = ""
 //def stringVarParams(a = "$variableName") <-- This doesn't work because variableName is out of scope

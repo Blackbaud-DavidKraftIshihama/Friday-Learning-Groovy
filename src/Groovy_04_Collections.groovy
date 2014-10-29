@@ -15,8 +15,8 @@ println c == a
 
 c << 6
 println c
-println c+[7, 8]
-println c-6
+println c + [7, 8]
+println c - 6
 
 def d = [1, 2, 3, 4, 5] as LinkedList
 println d.getClass()
@@ -31,9 +31,9 @@ println emptyMap.getClass()
 println emptyMap.size()
 
 def method() { return 20 }
-def map2 = [a        : 5,
-        "b"          : 5,
-        6            : "flip",
+def map2 = [     "a" : 5,
+                   b : 5,
+                   6 : "flip",
         ( method() ) : method() ]
 println map2
 println map2[20]
