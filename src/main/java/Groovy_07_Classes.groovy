@@ -1,5 +1,3 @@
-import groovy.transform.ToString
-
 // Default way of declaring a class - members are public by default
 class Account {
     def number

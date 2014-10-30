@@ -18,7 +18,7 @@ Integer c2 = new Integer(7)
 println c1 == c2 // true
 println c1.is(c2) // false
 
-// Groovy will try to reuse refernces when possible
+// Groovy will try to reuse references when possible
 def age = 25
 def number = age
 def number2 = 25

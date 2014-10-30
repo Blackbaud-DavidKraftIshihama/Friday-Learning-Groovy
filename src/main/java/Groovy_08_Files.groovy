@@ -10,7 +10,7 @@ def test = new File(".")
 test.eachFile({a -> println a}) // .\Groovy_00_JavaHelloWorld.groovy...
 assert test.isDirectory()
 
-// Groovy has augmented java.io.File with a few methods to get the contents of the file
+// Groovy has augmented java.io.File with a few useful methods
 def test2 = new File("Groovy_08_Files.groovy")
 assert test2.exists()
 test2.eachLine({a -> println a}) // Prints out the contents of this file. Do you need to know?

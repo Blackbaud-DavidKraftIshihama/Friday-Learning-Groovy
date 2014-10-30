@@ -1,5 +1,3 @@
-//Lists
-
 // Groovy's way of initializing a list
 def a = [1, 2, 3, 4, 5]
 println a.getClass() // class java.util.ArrayList
@@ -46,6 +44,6 @@ println map2 // [a:5, b:5, 6:flip, 20:20]
 println map2[20] // 20
 println map2.b // 5
 
-// BEWARE when interacting with Java generics:
+// BEWARE when interacting with Java generics
 ArrayList<Integer> intList = ["27", new Object(), 56.788]
 println(intList) // [27, java.lang.Object@2d3379b4, 56.788]
